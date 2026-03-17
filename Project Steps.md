@@ -7,7 +7,7 @@
 In the original design of this project, the **Azure Bing News API** was used to ingest news data into Microsoft Fabric.  
 However, Microsoft retired Bing Search APIs in **August 2025**, so the ingestion step has been updated to use an alternative API provider.
 
-For this project, we use **SearchAPI.io** as a replacement for Bing API.  
+For this project, we use **SearchAPI** as a replacement for Bing API.  
 SearchAPI provides a compatible endpoint that allows us to fetch Bing News results using a REST API, which can be easily integrated with **Microsoft Fabric Data Factory Copy Activity**.
 
 This step covers:
